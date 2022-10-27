@@ -1,0 +1,87 @@
+.cities {
+    background-color:gray;
+    color:white;
+    margin:0px;
+    padding:10px;
+    height: 60px;
+}
+body{
+    background-color: white;
+}
+.logo{
+    margin-left: 10px;
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+.menu_list {
+width: 268px;
+margin: 0;
+}
+
+.menu_head {
+height: 47px;
+line-height: 47px;
+padding-left: 38px;
+font-size: 14px;
+color: #525252;
+cursor: pointer;
+border: 1px solid #f1f1f1;
+position: relative;
+margin: 0px;
+font-weight: bold;
+background: #51a9f18c;
+}
+
+.menu_list .current {
+background: #51a9f18c;
+}
+
+.menu_nva {
+line-height: 38px;
+border-left: 1px solid #51a9f18c;
+backguound: #fff;
+border-right: 1px solid #51a9f18c;
+}
+
+.menu_nva a {
+display: block;
+height: 38px;
+line-height: 38px;
+padding-left: 38px;
+color: #777777;
+background: #fff;
+text-decoration: none;
+border-bottom: 1px solid #51a9f18c;
+}
+
+.menu_nva a:hover {
+text-decoration: none;
+}
