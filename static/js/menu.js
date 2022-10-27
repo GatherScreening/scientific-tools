@@ -11,3 +11,6 @@ $(document).ready(function () {
         $(this).siblings().removeClass("current");
     });
 });
+function datapredit() {
+     document.getElementById("iframe1").setAttribute("src","../html/dataPredit.html");
+}

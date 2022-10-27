@@ -85,3 +85,12 @@ border-bottom: 1px solid #51a9f18c;
 .menu_nva a:hover {
 text-decoration: none;
 }
+#iframe1{
+    float: right;
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    left: 270px;
+    width: 1000px;
+    height: 1000px;
+}
